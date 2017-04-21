@@ -54,4 +54,9 @@
     <name>fs.s3a.secret.key</name>
     <value>{{aws_secret_access_key}}</value>
   </property>
+  
+   <property>
+    <name>fs.s3a.fast.upload</name>
+    <value>true</value>
+  </property>
 </configuration>
