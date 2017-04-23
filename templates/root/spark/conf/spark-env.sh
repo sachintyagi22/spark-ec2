@@ -29,3 +29,4 @@ if [ $(id -u) == "0" ]
 then
     ulimit -n 1000000
 fi
+export OMP_NUM_THREADS=1 
